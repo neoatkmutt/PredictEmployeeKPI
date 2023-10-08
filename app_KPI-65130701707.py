@@ -8,6 +8,7 @@ import pickle
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 from xgboost import XGBClassifier
+import matplotlib.pyplot as plt
 
 # Load model and encoders
 with open('model_kpi.pkl', 'rb') as file:
